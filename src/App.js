@@ -20,7 +20,7 @@ function App() {
       setNext(next - 1);
     }
   };
-  console.log(characterList);
+
   return (
     <div className="App-header">
       <div className="buttons">
