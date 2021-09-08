@@ -1,0 +1,28 @@
+img {
+  width: 120px;
+  height: 120px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 150px;
+  height: 170px;
+  font-size: 12px;
+}
+
+.char {
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 500px) {
+  .char {
+    width: 200px;
+    height: 250px;
+    font-size: 17px;
+  }
+}
